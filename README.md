@@ -1,1 +1,2 @@
-# personal-portfolio-amended
+# personal-portfolio
+Personal portfolio exercise for Altcademy

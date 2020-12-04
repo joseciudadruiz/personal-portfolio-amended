@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- google foonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+<!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- css -->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- header -->
+    <nav class="navbar d-xl-flex flex-grow-1 navbar-transparent w-100 border-bottom" id="home-navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand d-lg text-white" style="font-size: 30px; text-transform: uppercase" href="#">JCR</a>
+        </button>
+      </div>
+    <!-- submenu -->
+      <div class="navbar-menu d-none d-md-inline mr-auto" id="white">
+        <a class="nav-item nav-link d-inline text-white" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link d-inline text-white" href="#about">About</a>
+        <a class="nav-item nav-link d-inline text-white" href="#form">Contact</a>
+      </div>
+      <!-- sub-menu when collapse -->
+      <div class="collapse navbar-collapse d-md-none" id="navbar-content">
+        <a class="nav-item nav-link text-white" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link text-white" href="#about">About</a>
+        <a class="nav-item nav-link text-white" href="#form">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <!-- hero -->
+
+      <div id="hero">
+        <div class="container-fluid">
+          <div class="row col-xl-12 img-fluid social" id="top-hero">
+            <p> </p>
+          </div>
+          <div class="row col-xs-8 text-white social ml-auto mr-auto py-0 px-0" id="presentation">
+            <h4 id="jcr"></h4>
+          </div>
+          <div class="row col-lg-12 media">
+            <ul class="list-inline w-100 ml-5">
+              <li>
+                <a onclick="gits()" href="https://github.com" class="btn btn-default btn-lg bg-white msg">
+                  <i class="fab fa-github"></i>
+                  <span class="social-method">Github</span>
+                </a>
+              </li>
+              <li>
+                <a onclick="linkes()" href="https://www.linkedin.com/feed/" class="btn btn-default btn-lg bg-white msg1">
+                  <i class="fab fa-linkedin"></i>
+                  <span class="social-method">Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+<!-- content -->
+  <div class="container-fluid" id="artist">
+    <div class="d-flex row pt-3" id="portfolio">
+      <div class="col-12">
+        <p>Portfolio <i class="fas fa-briefcase"></i></p>
+      </div>
+    </div>
+    <!-- first row -->
+      <div class="d-flex row pt-3" id="first-line">
+        <div class="col-12 col-md-4">
+          <a href="https://clon-apple.netlify.app">
+            <div class="aspectRatioBox rounded" style="background-image: url('./Images/Screenshot 2020-07-06 at 23.34.13.png')">
+            </div>
+          </a>
+            <h5 class="pt-3">Apple Home Page</h5>
+            <p>Apple clone assignment for Altcademy</p>
+            <p id="apple">HTML | CSS </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="https://newsweekcloneproject.netlify.app">
+            <div class="aspectRatioBox rounded" style="background-image: url('./Images/Screenshot 2020-07-06 at 23.35.37.png')">
+            </div>
+          </a>
+            <h5 class="pt-3">Newsweek Home Page</h5>
+            <p>Newsweek assignment for Altcademy</p>
+            <p id="newsweek">HTML | CSS </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="https://airbnb-assignment.netlify.app">
+            <div class="aspectRatioBox rounded" style="background-image: url('./Images/Screenshot 2020-07-06 at 23.36.38.png')">
+            </div>
+          </a>
+            <h5 class="pt-3">Airbnb Newsroom</h5>
+            <p>Airbnb assignment for Altcademy</p>
+            <p id="airbnb">HTML | CSS </p>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="d-flex row pt-5 pb-5" id="second-line">
+        <div class="col-12 col-md-4">
+          <a href="https://shopping-basket-jc.netlify.app">
+            <div class="aspectRatioBox rounded" style="background-image: url('./Images/shopping.jpg')">
+            </div>
+          </a>
+            <h5 class="pt-3">Shopping Cart</h5>
+            <p>Shopping Cart assignment for Altcademy</p>
+            <p id="shopping">HTML | CSS | JavaScript| JQuery</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="#home-navigation">
+            <div class="aspectRatioBox rounded" style="background-image: url('https://via.placeholder.com/409x27')">
+            </div>
+          </a>
+            <h5 class="pt-3">Next project in progress</h5>
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="#home-navigation">
+            <div class="aspectRatioBox rounded" style="background-image: url('https://via.placeholder.com/409x27')">
+            </div>
+          </a>
+            <h5 class="pt-3">Next project in progress</h5>
+        </div>
+      </div>
+      <hr/>
+
+      <!-- personal -->
+    <div class="pt-3 pb-5">
+      <div class="d-flex justify-content-center row pb-2" id="about">
+        <p>About <i class="far fa-user-circle"></i></p>
+      </div>
+      <div class="d-flex row pt-3 justify-content-center">
+        <!-- <div class="col-auto text-right" id="#split">
+          <img id="aboutMe" src="./Images/IMG_1178.png">
+        </div> -->
+        <div class="col-12 col-md-6 col-xl-4 pt-3 justify-content-center" id="description">
+          <h4 id="name">Jose Ciudad</h4>
+          <p>I am a dinamic Product Owner, dedicated father and tech lover. I am studying a computer science degree with a specialization on software development. I am currently studying a bootcamp through Altcademy, and passionate about development. I am open to collaboration, so please reach me out through my social media in GitHub or Linkedin.</p>
+        </div>
+      </div>
+    </div>
+    <hr/>
+
+    <div class="d-flex row pt-3" id="form">
+      <div class="col-12">
+        <p>Contact <i class="far fa-address-card"></i></p>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 col-xl-4 justify-content-center" id="formulary">
+        <form>
+          <div class="form-group">
+            <label for="name">Name <i class="far fa-user"></i></label>
+            <input type="text" class="form-control" id="input-name" aria-describedby="name" placeholder="Name and Surname">
+          </div>
+          <div class="form-group">
+            <label for="email">Email <i class="fas fa-at"></i></label>
+            <input type="email" class="form-control" id="input-email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="textArea">Your Message <i class="far fa-envelope-open"></i></label>
+            <textarea class="form-control" id="text-area" rows="5" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default btn-lg bg-white"><i class="far fa-envelope"></i> Submit</button>
+        </form>
+      </div>
+
+  </div>
+  <!-- footer -->
+  <footer class="container-fluid" id="footer">
+    <div class="row justify-content-between align-items-center pt-3">
+      <div class="col-auto">
+        <small id="contact">Jose Ciudad, joseciudadruiz@gmail.com</small>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-link px-1 text-dark social">
+          <i class="text-secondary mr-3 fab fa-github"></i>
+        </button>
+
+        <button class="btn btn-link px-1 text-dark social">
+          <i class="text-secondary mr-3 fab fa-linkedin"></i>
+        </button>
+
+        <button class="btn btn-link px-1 text-dark social">
+          <i class="text-secondary mr-3 fab fa-google"></i>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    </body>
+  </html>

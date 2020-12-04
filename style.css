@@ -1,0 +1,178 @@
+/* nav */
+html {
+  scroll-behavior: smooth;
+}
+nav .border-bottom {
+  color: white;
+}
+.navbar {
+  font-family: 'DM Mono', monospace;
+  font-size: 17px;
+}
+.navbar a:hover {
+  color: rgb(149, 150, 149) !important;
+}
+#home-navigation {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+}
+/* hero */
+
+/* @media (min-width: 1200px) {
+  #hero {
+    height: 100vh 100vw;
+    width: 100vw;
+  }
+} */
+
+#hero {
+  background-image: url(./Images/space.jpg);
+  background-size: cover;
+  background-position: top;
+  border-bottom: 2px solid rgb(132, 135, 132);
+  width: 100%;
+}
+#hero p {
+  padding-top: 550px;
+}
+
+.media {
+  text-align: center;
+}
+
+#jcr {
+  font-size: 25px;
+  font-family: 'DM Mono', monospace;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: -50px;
+  text-align: center;
+}
+.list-inline > li {
+  font-size: 100px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: rgba(132, 135, 132, 0.5) !important;
+  color: white;
+}
+.social-method {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'DM Mono', monospace;
+}
+/* content */
+
+@media (min-width: 768px) {
+  #first-line, #second-line {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #apple {
+    margin-bottom: 50px;
+  }
+  #newsweek {
+    margin-bottom: 50px;
+  }
+  #airbnb {
+    margin-bottom: 20px;
+  }
+}
+#artist {
+  background: linear-gradient(to bottom, #003366 50%, #99ccff 100%);
+  border-bottom: 2px solid rgb(255,255,255);
+  font-family: 'DM Mono', monospace;
+}
+#portfolio, #about, #form p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+#form p:hover {
+  color: rgb(80, 80, 80)
+}
+#portfolio p:hover {
+  color: rgb(80, 80, 80) !important;
+}
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+#first-line, #second-line h5 {
+  color: white;
+}
+#first-line > div > h5:hover {
+  color: rgb(80, 80, 80) !important;
+}
+#second-line > div > h5:hover {
+  color: rgb(80, 80, 80) !important;
+}
+
+#first-line > div > p{
+  line-height: 9px;
+  font-size: 14px;
+}
+#second-line > div > p{
+  line-height: 9px;
+  font-size: 14px;
+  color: white;
+}
+/* skills personal*/
+
+#about p:hover {
+  color: rgb(80, 80, 80) !important;
+}
+#aboutMe {
+  border-radius: 50%;
+}
+#description {
+  color: white;
+}
+
+@media ( min-width: 1400px) {
+  #description > p {
+    margin-right: 100px;
+  }
+  @media (min-width:1800px) {
+    #description > p {
+      margin-right: 200px;
+    }
+    @media (min-width:1199px) {
+      #description > p {
+        margin-right: 50px;
+      }
+  }
+}
+}
+/* footer */
+#footer {
+  background-color: rgb(245, 245, 245);
+}
+.social {
+  font-size: 25px;
+}
+#contact {
+  font-size: 12px;
+  font-family: 'DM Mono', monospace;
+  color: rgb(132, 135, 132);
+}
+#name {
+  text-align: center;
+}
+#formulary {
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+#top-hero {
+  height: 300px;
+}
